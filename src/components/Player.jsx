@@ -28,7 +28,11 @@ export default function Player() {
 
         />
 
-        <button onClick={handleClick} >Set Name</button>
+        <button onClick={handleClick} >
+
+          Set Name
+
+        </button>
       </p>
     </section>
   );
