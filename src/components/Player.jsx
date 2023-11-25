@@ -14,6 +14,7 @@ export default function Player() {
   function handleClick() {
     // setSubmitted(true);
     setEnteredPlayer(playerName.current.value);
+    playerName.current.value = '';
   }
   return (
     <section id="player">
@@ -24,8 +25,7 @@ export default function Player() {
         <input
           ref={playerName}
           type="text"
-          // onChange={handleChange}
-          // value={enteredPlayerName}
+
         />
 
         <button onClick={handleClick} >Set Name</button>
